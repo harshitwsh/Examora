@@ -270,8 +270,8 @@ export default function App() {
         {/* Navigation */}
         <nav className="max-w-7xl mx-auto px-6 py-8 flex items-center justify-between">
           <div className="flex items-center gap-2">
-            <div className="w-10 h-10 bg-indigo-600 rounded-xl flex items-center justify-center text-white shadow-lg shadow-indigo-200">
-              <CalendarIcon size={22} />
+            <div className="w-10 h-10 rounded-xl overflow-hidden flex items-center justify-center shadow-lg shadow-indigo-200 bg-slate-900 pb-0.5">
+              <img src="/logo.png" alt="Examora Logo" className="w-full h-full object-cover scale-110" />
             </div>
             <span className="text-xl font-black tracking-tight text-slate-900">Examora</span>
           </div>
@@ -447,11 +447,11 @@ export default function App() {
 
         {/* Footer */}
         <footer className="max-w-7xl mx-auto px-6 py-12 flex flex-col md:flex-row items-center justify-between gap-8 border-t border-slate-100">
-          <div className="flex items-center gap-2 grayscale opacity-50">
-            <div className="w-8 h-8 bg-slate-900 rounded-lg flex items-center justify-center text-white">
-              <CalendarIcon size={18} />
+          <div className="flex items-center gap-3">
+            <div className="w-8 h-8 rounded-lg overflow-hidden flex items-center justify-center bg-slate-900 pb-0.5">
+              <img src="/logo.png" alt="Examora Logo" className="w-full h-full object-cover scale-110" />
             </div>
-            <span className="text-lg font-black tracking-tight">Examora</span>
+            <span className="text-lg font-black tracking-tight text-slate-400 group-hover:text-slate-900 transition-colors">Examora</span>
           </div>
           <p className="text-sm text-slate-400">© 2026 Examora. Built for students.</p>
           <div className="flex gap-6 text-sm font-bold text-slate-400">
@@ -472,8 +472,8 @@ export default function App() {
         <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
           <div className="flex items-center gap-8">
             <div className="flex items-center gap-2 cursor-pointer" onClick={() => setView('landing')}>
-              <div className="w-8 h-8 bg-indigo-600 rounded-lg flex items-center justify-center text-white">
-                <CalendarIcon size={18} />
+              <div className="w-8 h-8 rounded-lg flex items-center justify-center overflow-hidden bg-slate-900 pb-0.5">
+                <img src="/logo.png" alt="Examora Logo" className="w-full h-full object-cover scale-110" />
               </div>
               <span className="text-lg font-black tracking-tight">Examora</span>
             </div>
